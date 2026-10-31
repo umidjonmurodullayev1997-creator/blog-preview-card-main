@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  height: 960px;
+  margin: 0 auto;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 384px;
+  height: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
+.card-img {
+  width: 336px;
+  height: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  /*border-radius: 10px;*/
+}
+.card-content {
+  width: 336px;
+  /*height: 194px;*/
+  padding: 24px 0;
+  text-align: left;
+}
+.card-content button {
+  width: 82px;
+  height: 29px;
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Figtree";
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.card-content span {
+  font-size: 14px;
+  line-height: 1.5;
+  color: hsl(0, 0%, 7%);
+  margin-bottom: 12px;
+  font-family: "Figtree";
+  font-weight: 500;
+  display: block;
+}
+.card-content a {
+  font-size: 24px;
+  line-height: 1.5;
+  color: hsl(0, 0%, 7%);
+  font-family: "Figtree";
+  font-weight: 800;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+.card-content a:hover {
+  color: hsl(47, 88%, 63%);
+}
+.card-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: hsl(0, 0%, 42%);
+  font-family: "Figtree";
+  font-weight: 500;
+}
+.card-author {
+  display: flex;
+  width: 129px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.card-author img {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+.card-author p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: hsl(0, 0%, 7%);
+  font-family: "Figtree";
+  font-weight: 800;
+  padding-left: 12px;
+}

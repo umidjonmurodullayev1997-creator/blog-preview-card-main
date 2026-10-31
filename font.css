@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Figtree"; /* Shriftga o'zingiz xohlagan nom berasiz */
+  src: url("../fonts/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800; /* Oddiy qalinlik */
+  font-style: normal;
+}
+
+/* Qalin (Bold) shriftni ulash */
+@font-face {
+  font-family: "Figtree"; /* Nom bir xil qoladi */
+  src: url("../fonts/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500; /* Qalin variant uchun 700 */
+  font-style: normal;
+}
