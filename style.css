@@ -14,7 +14,7 @@
 }
 .card {
   width: 384px;
-  height: 522px;
+  /*height: 522px;*/
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -26,7 +26,7 @@
 }
 .card-img {
   width: 336px;
-  height: 220px;
+  height: 200px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -56,16 +56,16 @@
   line-height: 1.5;
   font-family: "Figtree";
   cursor: pointer;
-  margin-bottom: 12px;
 }
 .card-content span {
   font-size: 14px;
   line-height: 1.5;
   color: hsl(0, 0%, 7%);
-  margin-bottom: 12px;
+  /*margin-bottom: 12px;*/
   font-family: "Figtree";
   font-weight: 500;
   display: block;
+  padding-top: 12px;
 }
 .card-content a {
   font-size: 24px;
@@ -74,7 +74,9 @@
   font-family: "Figtree";
   font-weight: 800;
   text-decoration: none;
-  margin-bottom: 12px;
+  display: block;
+  /*margin-bottom: 12px;*/
+  padding: 12px 0;
 }
 .card-content a:hover {
   color: hsl(47, 88%, 63%);
